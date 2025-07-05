@@ -4,7 +4,7 @@ import Signin from "./components/Signin";
 import Dashboard from "./components/Dashboard";
 import App from "./App";
 import Calculator from "./components/Calculator";
-//import TaskManager from "./components/TaskManager";
+import TaskManager from "./components/TaskManager";
 import CompoundingCalculator from "./components/CompoundCal";
 import IPOstudy from "./components/IPOstudy";
 import MomentumStock from "./components/MomentumStock";
@@ -35,7 +35,7 @@ export const router = createBrowserRouter([
     ),
   },
   {
-    path: "/taskmanager",
+    path: "/TaskManager",
     element: (
       <PrivateRoute>
         <TaskManager />
